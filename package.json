@@ -1,0 +1,31 @@
+{
+  "name": "red-agenda",
+  "version": "1.0.0",
+  "description": "UPF Agenda",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegovincent/red-agenda.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "School",
+    "Calendar",
+    "Agenda"
+  ],
+  "author": "Diego Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegovincent/red-agenda/issues"
+  },
+  "homepage": "https://github.com/diegovincent/red-agenda#readme",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
