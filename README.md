@@ -5,7 +5,7 @@
 
 ### Known bugs:
 
-- None.
+- None. (report to [diego.vincent.rodriguez@gmail.com](mailto:diego.vincent.rodriguez@gmail.com))
 
 ### Lite Blog:
 
