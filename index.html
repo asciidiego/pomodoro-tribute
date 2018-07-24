@@ -15,8 +15,63 @@
 
 <body>
     <title>The Pomodoro</title>
-    <h1>Pomodoro</h1>
-    <h2>Basic Responsive Design Web</h2>
+    <main id="main">
+        <div class="jumbotron text-center">
+            <h1 class="display-4" id="title">Pomodoro</h1>
+            <p class="lead">Basic Responsive Design Web Project</p>
+            <hr class="my-3">
+            <p class="blockquote">A pomodoro tribute by Diego Rodriguez to express its gratitude towards lord Pomodoro for its amazing help in
+                the hard and fulfilling journey of learning.
+                <i>(And also for helping him in getting to senior year in engineering school with average grades!)</i>
+            </p>
+            <p class="blockquote-footer">drp, 2018</p>
+            <p class="lead text-center">
+                <a class="btn btn-danger" href="#intro-breaker" role="button">Be grateful</a>
+            </p>
+        </div>
+        <div class="row">
+            <div class="img-div col-lg-8 offset-lg-2 text-center">
+                <!-- Insert main image here -->
+                <p class="display-3 text-center">To our sacred lord...</p>
+                <hr class="py-4" id="intro-breaker">
+                <img src="img/pomodoro.jpg" alt="A big pomodoro timer" width="80%" id="image">
+                <hr class="my-4">
+                <p class="display-4 text-center" id="img-caption">The Study Hall Community says,</p>
+                <p class="display-2 text-center">Thanks.</p>
+                <hr class="my-3">
+            </div>
+        </div>
+        <div id="tribute-info">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <p class="lead text-center">For things like...</p>
+                </div>
+            </div>
+            <div class="row text-md-right text-center">
+                <div class="col-sm-6 col-lg-4 offset-sm-0 offset-lg-1 align-self-center">
+                    <p class="p-1">
+                        <i>Looking for a
+                            <a href="">place</a> to get motivated or find a study buddy? Join our studying Discord server!</i>
+                    </p>
+                </div>
+                <!-- TODO: User Story #7: 
+                    I should see an a element with a corresponding 
+                    id="tribute-link", which links to an outside site 
+                    that contains additional information about the 
+                    subject of the tribute page. HINT: You must give 
+                    your element an attribute of target and set it to 
+                    _blank in order for your link to open in a new tab 
+                    (i.e. target="_blank"). -->
+
+                <div class="col-sm-6 col-lg-4 offset-lg-2">
+                    <!-- Dynamic img resize -->
+                    <a href="https://discord.gg/2sBxe4z" class="text-sm-center" target="_blank">
+                        <img src="img/discord_logo.png" class="p-3" alt="Discord Logo" width="80%">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
