@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/diegovincent/red-agenda#readme",
   "dependencies": {
-    "angular": "^1.7.2",
     "bootstrap": "^4.1.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
